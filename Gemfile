@@ -18,7 +18,7 @@ ruby '2.0.0'
 # This is a gemset definition for RVM. If you don't want to use this specific
 # gemset just delete the line. If RVM is not installed this line can be left,
 # but will do nothing.
-#ruby-gemset=mads_sinatra
+#ruby-gemset=sinatra_bootstrap
 
 # Pry is a Ruby shell, much more powerful than the standard shell (irb). It's
 # not essencial to the project and you can opt no to install it, but it will
