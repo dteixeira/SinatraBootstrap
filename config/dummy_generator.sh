@@ -16,7 +16,7 @@ fi
 
 # Create dummy files.
 for D in $(find $1 \( ! -regex '.*/\..*' \) -type d) ; do
-  if [[ $(find $D -maxdepth 1 \( ! -regex '.*/\..*' \) -type f | grep -c "") -eq 0  ]]; then
-    touch $D/$dummy 2> /dev/null
+  if [[ $(find $D \( ! -regex '.*/\..*' \) | grep -c "") -lt 2  ]]; then
+    touch $D/$dummy
   fi
 done

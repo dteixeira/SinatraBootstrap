@@ -17,7 +17,7 @@ fi
 
 # Remove dummy files.
 for D in $(find $1 \( ! -regex '.*/\..*' \) -type d) ; do
-  if [[ $(find $D -maxdepth 1 \( ! -regex '.*/\..*' \) -type f | grep -c "") -gt 1  ]]; then
+  if [[ $(find $D -maxdepth 1 \( ! -regex '.*/\..*' \) | grep -c "") -gt 2  ]]; then
     rm "$D/$dummy" -v 2> /dev/null
   fi
 done
