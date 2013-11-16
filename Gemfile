@@ -1,19 +1,19 @@
-#############################################################################
+################################################################################
 # This Gemfile installs gems that are pretty standard among Sinatra projects.
 # You're more than welcome to change it or add any other gems that you might
 # need. Just don't forget to change the app configurations.
 #
 # Diogo Teixeira, 2013
-#############################################################################
+################################################################################
 
 source 'https://rubygems.org'
 
 # Ruby required version.
 ruby '2.0.0'
 
-#############################################################################
+################################################################################
 # Environment gems and configurations
-#############################################################################
+################################################################################
 
 # This is a gemset definition for RVM. If you don't want to use this specific
 # gemset just delete the line. If RVM is not installed this line can be left,
@@ -26,9 +26,9 @@ ruby '2.0.0'
 # version is enforced.
 gem "pry"
 
-#############################################################################
+################################################################################
 # Server gems
-#############################################################################
+################################################################################
 
 # Shotgun is a reloading gem for Sinatra apps. It's easy to use, and might
 # come in handy for small applications. It realoads the entire app not only
@@ -43,9 +43,9 @@ gem "pry"
 # than Mongrel. To use Thin as the server just call "thin start -R config.ru".
 gem "thin", "~> 1.6.1"
 
-#############################################################################
+################################################################################
 # Sinatra specific gems
-#############################################################################
+################################################################################
 
 # Sinatra web framework.
 gem "sinatra", "~> 1.4.4"
@@ -65,9 +65,9 @@ gem "sinatra-partial", "~> 0.4.0"
 # Needed for Compass routes.
 gem "sinatra-advanced-routes", "~> 0.5.3"
 
-#############################################################################
+################################################################################
 # Resource specific gems
-#############################################################################
+################################################################################
 
 # TheRubyRacer is an embeds the V8 engine in Ruby. It's used to speed up
 # coffeescript compilation. It might also be used to embed JS code in Ruby and
