@@ -92,3 +92,6 @@ gem "coffee-script", "~> 2.2.0"
 
 # Adds JSON handling capabilities.
 gem "json", "~> 1.8.1"
+
+# Adds DataMapper ORM.
+gem "data_mapper", "~> 1.2.0"
