@@ -65,6 +65,6 @@ If you want to change which controller answers to what path, you can do that in 
 
 - Setup different environments.
 - Setup unit tests.
-- Build more Rake tasks for commom tasks.
+- Build more Rake tasks for common work.
 
 © 2013 Diogo Teixeira. This code is distributed under the MIT license.
